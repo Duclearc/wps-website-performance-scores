@@ -1,0 +1,18 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### VisualStudioCode ###
+.vscode/*
+
+### Unstable files ###
+test-*
+
+### npm ###
+node_modules/*
+
+### local files ###
+*scoreLogs.json
+logs/*.json

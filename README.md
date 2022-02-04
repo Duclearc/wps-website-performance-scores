@@ -1,16 +1,21 @@
-// v2
+// v3
 # WPS - Website Performance Scores
 # Description
 - Website Performance Scores (WPS) is a Puppeteer-based library developed in order to measure the performance of a website using WebVitals scores (like Lighthouse).
 
-# Initial concept
+# Concept
 - this is a prototype
-- [NPM package page](https://www.npmjs.com/package/wps-webiste-performance-scores)
+- [NPM package page](https://www.npmjs.com/package/wps-website-performance-scores)
 - [Git Repo](https://github.com/Duclearc/wps-website-performance-scores)
 - **GOAL:** feed this a webpage (through a `config.js` file) and WPM should return it's WebVitals (through Lighthouse) score
 - **STACK:**
     - [Puppeteer](https://pptr.dev/)
     - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+# Usage
+- go to `config.json` and set your `targetWebsite`
+- on your terminal, navigate to the root and use `npm start` to initialise the process
+- the console will show your lighthouse scores. They will also be available in the `./logs/scoreLogs.json` file (or whichever file you've determined in the `logFilePath` in `config.json`)
 
 # Dataflow
 - `main.js`

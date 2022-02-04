@@ -1,0 +1,4 @@
+{
+    "targetWebsite": "https://www.google.com/",
+    "logFilePath": "./logs/scoreLogs.json"
+}
