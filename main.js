@@ -1,6 +1,6 @@
-const WPM = require('./wpm')
+const WPS = require('./wps')
 const config = require('./config.json')
 
-const wpm = new WPM(config).run()
+const wps = new WPS(config).run()
 
-module.exports = wpm
+module.exports = wps

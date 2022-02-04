@@ -7,7 +7,7 @@
 - this is a prototype
 - [NPM package page](https://www.npmjs.com/package/wps-website-performance-scores)
 - [Git Repo](https://github.com/Duclearc/wps-website-performance-scores)
-- **GOAL:** feed this a webpage (through a `config.js` file) and WPM should return it's WebVitals (through Lighthouse) score
+- **GOAL:** feed this a webpage (through a `config.js` file) and WPS should return it's WebVitals (through Lighthouse) score
 - **STACK:**
     - [Puppeteer](https://pptr.dev/)
     - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
@@ -19,9 +19,9 @@
 
 # Dataflow
 - `main.js`
-    - instantiates WPM with `./config.json` and immediately runs it
-- `wpm.js`
-    - `constructor()`from the class `wpm` deconstructs the data `targetWebsite` and `logFilePath` from `./config.json` and saves it for internal use
+    - instantiates WPS with `./config.json` and immediately runs it
+- `wps.js`
+    - `constructor()`from the class `wps` deconstructs the data `targetWebsite` and `logFilePath` from `./config.json` and saves it for internal use
     - `run()` method is activated
     - `getTargetScore()` method is activated
         - uses puppeteer to launch the browser
