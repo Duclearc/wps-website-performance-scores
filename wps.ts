@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer')
 const lighthouse = require('lighthouse')
 const fs = require('fs');
 
-class WPM {
+class WPS {
     targetWebsite: string
     logFilePath: string
     
@@ -94,4 +94,4 @@ class WPM {
     }
 }
 
-module.exports = WPM
+module.exports = WPS
