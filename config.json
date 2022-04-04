@@ -1,4 +1,11 @@
 {
+    "fullDate": true,
+    "viewport": {
+        "width": 1000,
+        "height": 1000
+    },
     "targetWebsite": "https://www.google.com/",
-    "logFilePath": "./logs/scoreLogs.json"
+    "logFilePath": "./logs/scoreLogs.json",
+    "screenshotFilePath": "./screenshots/",
+    "imageType": "jpg"
 }

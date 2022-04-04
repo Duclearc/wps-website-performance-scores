@@ -51,3 +51,11 @@ export interface FormattedReport {
     seo: number,
     pwa: number
 }
+
+export interface Args {
+    target?: string,
+    screenshot?: boolean,
+    fullDate?: boolean,
+    width?: number,
+    height?: number,
+}

@@ -12,3 +12,4 @@ test-*
 ### Local files ###
 *scoreLogs.json
 logs/*.json
+screenshots/*.jpg
