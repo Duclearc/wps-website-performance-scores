@@ -1,6 +1,6 @@
 {
   "name": "wps-website-performance-scores",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Website Performance Scores (WPS) is a Puppeteer-based library developed in order to measure the performance of a website using WebVitals scores (like Lighthouse).",
   "main": "main.js",
   "scripts": {

@@ -86,9 +86,9 @@ class WPS {
     /**
      * Lighthouse will open the URL.
      * Puppeteer will observe `targetWebsite` and return the report.
-     * 
-     * @param browser 
-     * @returns 
+     *
+     * @param browser
+     * @returns
      */
     async getTargetScore(browser: Browser): Promise<InitialReport> {
         // Adapted from original at: https://github.com/GoogleChrome/lighthouse/blob/master/docs/puppeteer.md#option-1-launch-chrome-with-puppeteer-and-handoff-to-lighthouse
